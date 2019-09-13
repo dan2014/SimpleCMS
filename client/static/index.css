@@ -1,0 +1,40 @@
+@import 'reset.css';
+
+* {
+    color:black;
+}
+
+body {
+    background: #FFFAFA;
+}
+
+header {
+    background: #4682B4;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 1000px;
+    min-height: 80vh;
+    margin: 0 auto;
+}
+
+footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+img {
+    width: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
